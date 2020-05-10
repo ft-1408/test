@@ -3,6 +3,9 @@
      machine:
        enabled: true
      steps:
+       - add_ssh_keys:
+          fingerprints:
+            - "55:20:fe:22:09:e0:0b:12:2f:d9:16:91:cb:5f:74:d2"
        - run:
            name: Deploy Over SSH
            command: |
