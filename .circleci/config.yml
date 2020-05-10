@@ -6,7 +6,7 @@
        - run:
            name: Deploy Over SSH
            command: |
-             ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
+             ssh deployment@178.128.251.71 "/home/deployment/test.sh"
 
  workflows:
    version: 2
