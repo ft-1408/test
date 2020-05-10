@@ -15,4 +15,4 @@
        - deploy:
            filters:
              branches:
-               only: *
+               only: circleci-project-setup
